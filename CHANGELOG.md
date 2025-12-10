@@ -4,6 +4,10 @@
  The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
  and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.8.3] - 2025-12
+### Fixed
+- Updated urllib3 to 2.6.1 to mitigate [CVE-2025-66471](https://avd.aquasec.com/nvd/cve-2025-66471) and [CVE-2025-66418](https://avd.aquasec.com/nvd/cve-2025-66418)
+
 ## [2.8.2] - 2025-11
 ### Fixed
 - Updated openssl to mitigate [CVE-2025-9232](https://avd.aquasec.com/nvd/cve-2025-9232) and [CVE-2025-9230](https://avd.aquasec.com/nvd/cve-2025-9230)
