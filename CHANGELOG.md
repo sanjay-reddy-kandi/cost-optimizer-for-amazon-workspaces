@@ -4,6 +4,10 @@
  The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
  and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.8.8] - 2026-03-17
+### Fixed
+- Updated flatted to 3.4.1 to mitigate [CVE-2026-32141](https://avd.aquasec.com/nvd/cve-2026-32141)
+
 ## [2.8.7] - 2026-03-04
 ### Fixed
 - Updated package-lock.json to fix [CVE-2026-27903](https://avd.aquasec.com/nvd/cve-2026-27903) and [CVE-2026-27904](https://avd.aquasec.com/nvd/cve-2026-27904) in minimatch
